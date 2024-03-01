@@ -6,7 +6,7 @@ pygame.init()
 class DrawInformation:
 	BLACK = 0, 0, 0
 	WHITE = 255, 255, 255
-	GREEN = 0, 255, 0
+	GREEN = 0, 204, 102  #shade of green , not green
 	RED = 255, 0, 0
 	BACKGROUND_COLOR = "#ecf3f7"
 
@@ -16,8 +16,8 @@ class DrawInformation:
 		(192, 192, 192)
 	]
 
-	FONT = pygame.font.SysFont('fira code', 20)
-	LARGE_FONT = pygame.font.SysFont('Fira code', 35) #heading
+	FONT = pygame.font.SysFont('Cousine', 20)   #sub heading font 
+	LARGE_FONT = pygame.font.SysFont('Cousine', 35) #heading font
 
 	SIDE_PAD = 100
 	TOP_PAD = 150
@@ -27,7 +27,7 @@ class DrawInformation:
 		self.height = height
 
 		self.window = pygame.display.set_mode((width, height))
-		pygame.display.set_caption("Sorting Algorithm Visualization by Shivam Petwal")
+		pygame.display.set_caption("Sorting_Algo_Visualizer by Shivam Petwal")
 		self.set_list(lst)
 
 	def set_list(self, lst):
