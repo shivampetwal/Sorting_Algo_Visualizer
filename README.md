@@ -16,7 +16,7 @@
         * py Sorting_Algo_Visualizer.py
 
 
- <img src="./DEMO.png" width="60%"/>
+ <img src="./Sorting_Algo_Visualizer_DEMO.gif" width="60%"/>
 
 
 
